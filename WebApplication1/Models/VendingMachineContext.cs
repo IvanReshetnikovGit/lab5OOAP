@@ -7,7 +7,7 @@ namespace WebApplication1.Models
 
         public VendingMachineContext()
         {
-            State = new WaitingForPaymentState(); // Стартовий стан
+            State = new WaitingForPaymentState();
         }
 
         public string Process(decimal insertedMoney, decimal itemPrice)
